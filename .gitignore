@@ -9,3 +9,6 @@ package-lock.json
 yarn.lock
 node_modules
 yarn-error.log
+
+#Custom
+pages/_all.js
