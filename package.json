@@ -9,12 +9,12 @@
   "scripts": {
     "start": "node index",
     "test": "jest",
+    "build": "next build",
     "deploy": "we deploy -p aprendareact -s website"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@zeit/next-css": "^0.2.0",
     "@zeit/next-sass": "^0.2.0",
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-preset-react": "^6.24.1",
