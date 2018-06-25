@@ -1,0 +1,10 @@
+#JetBrains
+.idea
+
+#Next.js
+.next
+
+#npm/yarn
+package-lock.json
+yarn.lock
+node_modules

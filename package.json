@@ -1,0 +1,28 @@
+{
+  "name": "aprenda-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.6"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "jest",
+    "deploy": "we deploy -p aprendareact -s website"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^0.2.0",
+    "@zeit/next-sass": "^0.2.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.6",
+    "next": "^6.0.3",
+    "next-routes": "^1.4.2",
+    "node-sass": "^4.9.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
