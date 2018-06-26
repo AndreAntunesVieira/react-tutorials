@@ -1,11 +1,5 @@
 {
   "presets": [
-    [
-      "env",
-      {
-        "modules": "commonjs"
-      }
-    ],
     "next/babel"
   ],
   "plugins": [
@@ -17,5 +11,20 @@
         ]
       }
     ]
-  ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["env", { "modules": "commonjs" }],
+        "next/babel",
+        "react"
+      ],
+      "plugins": [
+        [
+          "module-resolver",
+          { "root": ["./"] }
+        ]
+      ]
+    }
+  }
 }
