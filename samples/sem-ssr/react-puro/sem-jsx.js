@@ -1,4 +1,4 @@
-const app = <h1>Olá, mundo</h1>
+const app = React.createElement('h1', { children: ' Olá mundo' })
 
 const container = document.getElementById('app')
 ReactDOM.render(app, container)

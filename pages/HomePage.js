@@ -49,6 +49,9 @@ export default () => (
       <Card href="/redux" title="+ Express">
         Criar descrição
       </Card>
+      <Card href="/redux" title="+ Fastify">
+        Criar descrição
+      </Card>
     </section>
     <section>
       <h3>Componentes e funcionalidades úteis (Não sofrem influência com SSR)</h3>

@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node index",
+    "dev": "nodemon index",
     "test": "jest",
     "test:watch": "jest --watch",
     "build": "next build",
@@ -30,6 +31,7 @@
     "next": "^6.0.3",
     "next-routes": "^1.4.2",
     "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
